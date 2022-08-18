@@ -1,0 +1,85 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(../images/nu2.jpg);
+ background-size: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.form-box {
+    width: 370px;
+    padding: 40px;
+    background:#D8B8D8;
+    text-align: center;
+    border: 2px solid #c845d4d2;
+    border-radius: 24px;
+}
+
+.form-title {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.form-box input[type="text"],.form-box input[type="email"], .form-box input[type="password"], .form-box button[type="submit"] {
+    border: 0;
+    background-color:#edb8f0bd ;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #c845d4d2;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.form-box input[type="text"]:focus.form-box input[type="email"]:focus, .form-box input[type="password"]:focus {
+    width: 280px;
+    border-color: #c845d4d2;
+}
+
+.form-box button[type="submit"] {
+    border: 0;
+    background: #c845d4d2;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #c845d4d2;
+    padding: 14px 40px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.form-box button[type="submit"]:hover {
+    background: none;
+}
+.form-box button[type="submit2"] {
+    border: 0;
+    background: #cecbedd2;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #c4a4edd2;
+    padding: 14px 40px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    }
